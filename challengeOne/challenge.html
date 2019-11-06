@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge One</title>
+
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Selecione o desafio: </h2>
+    <select id="numero_desafio">
+        <option value="0">Qual será o desafio?</option>
+        <option value="1">Challenge 01</option>
+        <option value="2">Challenge 02</option>
+        <option value="3">Challenge 03</option>
+        <option value="4">Challenge 04</option>
+        <option value="5">Challenge 05</option>
+        <option value="6">Challenge 06</option>
+        <option value="7">Challenge 07</option>
+    </select>
+
+    <input type="button" value="desafiar" id="btn_desafiar">
+
+    <hr>
+
+    <div id="desafio_02" class="hidden">
+        <h4>Selecione o método de array: </h4>
+        <select id="metodos_array">
+            <option value="0">Qual será o método?</option>
+            <option value="1">Map</option>
+            <option value="2">Filter</option>
+            <option value="3">Find</option>
+            <option value="4">Unindo Operações</option>
+        </select>
+        <input type="button" value="Ver Método" id="btn_metodo">
+    </div>
+
+    <div id="desafio_05" class="hidden">
+        <h4>Selecione o operador: </h4>
+        <select id="operadores">
+            <option value="0">Qual será o operador?</option>
+            <option value="1">Rest</option>
+            <option value="2">Spread</option>
+        </select>
+        <input type="button" value="Operador " id="btn_operador">
+    </div>
+
+    <p id="conteudo"></p>
+    <p id="conteudo_desafio4"></p>
+
+    <script src="challenge.js"></script>
+</body>
+
+</html>
